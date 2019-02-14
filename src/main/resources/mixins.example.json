@@ -3,9 +3,9 @@
   "package": "example",
   "minVersion": "0.6",
   "target": "@env(DEFAULT)",
-  "package": "example",
+  "package": "example.mixin",
   "refmap": "mixins.example.refmap.json",
-  "server": [
+  "client": [
     "MixinEntityChicken"
   ],
   "injectors": {
