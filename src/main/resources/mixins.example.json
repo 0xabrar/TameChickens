@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "example",
+  "minVersion": "0.6",
+  "target": "@env(DEFAULT)",
+  "package": "example",
+  "refmap": "mixins.example.refmap.json",
+  "server": [
+    "MixinEntityChicken"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
